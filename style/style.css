@@ -13,10 +13,10 @@ p, h1 {
 }
 
 .header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1600px;
     height: 600px;
     background-image: url(../src/Img.png);
 }
@@ -29,8 +29,6 @@ p, h1 {
 .header-h1 {
     padding: 0;
     text-transform: uppercase;
-    width: 696px;
-    height: 120px;
     font-weight: 900;
     font-size: 44px;
     text-align: center;
@@ -62,9 +60,9 @@ p, h1 {
 
 .header-up {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 25px;
-    padding-left: 215px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 12.5%;
     align-self: baseline;
 }
 
@@ -75,7 +73,7 @@ p, h1 {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    padding-right: 93px;
+    padding-right: 9%;
 }
 
 .logo span {
@@ -91,7 +89,7 @@ p, h1 {
 .header-inf {
     display: inline-flex;
     gap: 54.5px;
-    padding-right: 335px;
+    padding-right: 13%;
     padding-top: 8px;
 }
 
@@ -135,7 +133,6 @@ a:hover {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
 }
 
 .mail:hover > svg > path {
@@ -156,19 +153,20 @@ a:hover {
 }
 
 main {
-    padding-top: 94px;
+    padding-top: 9%;
 }
 
 .main-plusses {
     display: inline-flex;
-    gap: 30px;
-    margin-bottom: 94px;
-    padding-left: 215px;
+    gap: 3.5%;
+    margin-bottom: 9%;
+    padding-left: 12.5%;
 }
 
 .main-plusses-container {
     display: inline-flex;
     flex-direction: column;
+    width: 19.7%;
 }
 
 .main-plusses-container-img {
@@ -178,8 +176,9 @@ main {
     text-align: center;
     align-items: center;
     background: #F5F4FA;
-    width: 270px;
-    height: 120px;
+    width: 110%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     margin-bottom: 30px;
 }
 
@@ -187,16 +186,11 @@ main {
     margin-top: 10px;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    width: 270px;
-    height: 75px;
+    line-height: 171%;
     letter-spacing: 0.03em;
 }
 
 .main-plusses-container-txt > h1 {
-    width: 270px;
-    height: 16px;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -208,13 +202,13 @@ main {
     display: inline-flex;
     flex-direction: column;
     gap: 50px;
-    margin-bottom: 94px;
-    padding-left: 215px;
+    margin-bottom: 9%;
+    padding-left: 12.5%;
 }
 
 .what-we-do-txt {
     margin: 0 auto;
-    height: 42px;
+    height: 4.5px;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -225,16 +219,16 @@ main {
 
 .what-we-do-img {
     display: inline-flex;
-    gap: 30px;
+    gap: 3.5%;
 }
 
 .our-team {
     width: 100%;
     background: #F5F4FA;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-right: 215px;
-    padding-left: 215px;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    padding-right: 12.5%;
+    padding-left: 12.5%;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -242,7 +236,7 @@ main {
 }
 
 .our-team-txt {
-    margin-left: 450px;
+    margin-left: 25%;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -254,26 +248,30 @@ main {
 .our-team-img-cntainer0 {
     display: inline-flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 4%;
 }
 
 .our-team-img-cntainer0-container1{
     background-color: #FFFFFF;
     height: calc(260px + 168px);
-    border-radius: 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 1%;
+    width: 20.4%;
+    height: 16%;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .our-team-img-cntainer0-container1-txt {
-    padding-top: 30px;
+    padding-top: 2%;
     display: inline-flex;
     flex-direction: column;
     height: 168px;
     width: 270px;
+    padding-top: 30px;
 }
 
 .our-team-img-cntainer0-container1-txt > p {
     text-align: center;
+    padding-right: 40px;
 }
 
 .c0 {
@@ -305,6 +303,7 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    padding-right: 50px;
 }
 
 .our-team-img-cntainer0-container1-ico > button {
@@ -326,7 +325,7 @@ main {
 
 .links {
     background: #2F303A;
-    padding-left: 215px;
+    padding-left: 12.5%;
     padding-top: 60px;
     padding-bottom: 60px;
     height: 252px;
